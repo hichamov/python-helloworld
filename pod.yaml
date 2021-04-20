@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Argo-demo
+  labels:
+    app: argo
+    type: frontend
+spec:
+  containers:
+    - name: argo-demo
+      image: hicham7farhi/hello-world:0.0.6
