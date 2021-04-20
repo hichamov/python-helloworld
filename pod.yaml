@@ -7,5 +7,4 @@ metadata:
     type: frontend
 spec:
   containers:
-    - name: argo-demo
-      image: hicham7farhi/hello-world:0.0.6
+    image: hicham7farhi/hello-world:0.0.7
