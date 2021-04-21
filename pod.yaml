@@ -8,3 +8,4 @@ metadata:
 spec:
   containers:
     image: hicham7farhi/hello-world:0.0.8
+    name: web 
