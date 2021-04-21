@@ -7,5 +7,5 @@ metadata:
     type: frontend
 spec:
   containers:
-    name: web 
+    name: web
     image: hicham7farhi/hello-world:0.0.9
