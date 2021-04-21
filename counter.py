@@ -12,7 +12,7 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
             REQUESTS.inc()
             self.send_response(200)
             self.end_headers()
-            self.wfile.write(b"Hello World")
+            self.wfile.write(b"Argo Stack")
 
 if __name__ == "__main__":
         start_http_server(8000)
