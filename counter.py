@@ -12,7 +12,7 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
             REQUESTS.inc()
             self.send_response(200)
             self.end_headers()
-            self.wfile.write(b"Version: 0.0.12")
+            self.wfile.write(b"Version: 0.0.13")
 
 if __name__ == "__main__":
         start_http_server(8000)
