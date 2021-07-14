@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: python-helloworld
+  name: python-helloworld
+spec:
+  ports:
+  - name: 8001-8001
+    port: 8001
+    protocol: TCP
+    targetPort: 8001
+  selector:
+    app: python-helloworld
+  type: ClusterIP
+status:
+  loadBalancer: {}

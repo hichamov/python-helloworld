@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: python-helloworld
+  name: python-helloworld
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: python-helloworld
+  template:
+    metadata:
+      labels:
+        app: python-helloworld
+    spec:
+      containers:
+      - image: hicham7farhi/hello-world:0.0.14
+        name: hello-world
+status: {}
