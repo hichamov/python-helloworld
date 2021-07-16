@@ -4,6 +4,7 @@ metadata:
   labels:
     app: python-helloworld
   name: python-helloworld
+  namespace: hello
 spec:
   ports:
   - name: 8001-8001
