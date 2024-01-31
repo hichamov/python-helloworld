@@ -16,6 +16,6 @@ spec:
         app: python-helloworld
     spec:
       containers:
-      - image: hicham7farhi/hello-world:0.0.4
+      - image: hicham7farhi/hello-world:0.0.5
         name: hello-world
 status: {}
